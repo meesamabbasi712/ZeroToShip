@@ -13,7 +13,15 @@ def display_menu():
     print("9. Exit")
     print("=" * 45)
 
-
+def show_dashboard():
+    print("\n" + "=" * 45)
+    print("      STORAGE SUMMARY DASHBOARD")
+    print("=" * 45)
+    print("Total Files      : 250")
+    print("Folders Scanned  : 35")
+    print("Total Space Used : 12.8 GB")
+    print("=" * 45)
+    
 def main():
     while True:
         display_menu()
