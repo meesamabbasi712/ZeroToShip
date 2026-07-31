@@ -13,6 +13,7 @@ def display_menu():
     print("9. Exit")
     print("=" * 45)
 
+
 def show_dashboard():
     print("\n" + "=" * 45)
     print("      STORAGE SUMMARY DASHBOARD")
@@ -20,9 +21,16 @@ def show_dashboard():
     print("Total Files      : 250")
     print("Folders Scanned  : 35")
     print("Total Space Used : 12.8 GB")
+    print("Large Files      : 15")
+    print("Old Files        : 20")
+    print("Screenshots      : 18")
+    print("Archive Files    : 7")
+    print("Duplicate Files  : 5")
+    print("Empty Folders    : 3")
     print("=" * 45)
-    
-   def show_warnings():
+
+
+def show_warnings():
     print("\n" + "!" * 45)
     print("           STORAGE WARNINGS")
     print("!" * 45)
@@ -30,7 +38,9 @@ def show_dashboard():
     print("Warning: Large storage block (5.2 GB) found.")
     print("Recommendation: Clean unnecessary files.")
     print("!" * 45)
-    def sort_files():
+
+
+def sort_files():
     print("\n" + "=" * 45)
     print("          SORT FILES")
     print("=" * 45)
@@ -47,38 +57,51 @@ def show_dashboard():
     elif option == "3":
         print("Files sorted by Date.")
     else:
-        print("Invalid sorting option.")   
+        print("Invalid sorting option.")
+
+
 def main():
     while True:
         display_menu()
         choice = input("Enter your choice: ")
 
         if choice == "1":
-            print("\nDashboard selected.")
+            show_dashboard()
 
         elif choice == "2":
-            print("\nLarge Files selected.")
+            print("\nLarge Files")
+            print("- movie.mp4")
+            print("- project.zip")
+            print("- backup.iso")
 
         elif choice == "3":
-            print("\nOld Files selected.")
+            print("\nOld Files")
+            print("- report_2021.pdf")
+            print("- notes_old.docx")
 
         elif choice == "4":
-            print("\nScreenshots selected.")
+            print("\nScreenshots")
+            print("- Screenshot1.png")
+            print("- Screenshot2.png")
 
         elif choice == "5":
-            print("\nArchive Files selected.")
+            print("\nArchive Files")
+            print("- files.zip")
+            print("- backup.rar")
 
         elif choice == "6":
-            print("\nDuplicate Files selected.")
+            print("\nDuplicate Files")
+            print("- copy_photo.jpg")
+            print("- duplicate_notes.txt")
 
-     elif choice == "7":
-    show_warnings()
+        elif choice == "7":
+            show_warnings()
 
         elif choice == "8":
-    sort_files()
+            sort_files()
 
         elif choice == "9":
-            print("\nThank you for using Storage Analyzer!")
+            print("\nThank you for using DoomFolder Storage Analyzer!")
             break
 
         else:
