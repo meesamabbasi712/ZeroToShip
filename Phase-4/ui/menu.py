@@ -30,7 +30,24 @@ def show_dashboard():
     print("Warning: Large storage block (5.2 GB) found.")
     print("Recommendation: Clean unnecessary files.")
     print("!" * 45)
-       
+    def sort_files():
+    print("\n" + "=" * 45)
+    print("          SORT FILES")
+    print("=" * 45)
+    print("1. Sort by Name")
+    print("2. Sort by Size")
+    print("3. Sort by Date")
+
+    option = input("Choose sorting option: ")
+
+    if option == "1":
+        print("Files sorted by Name.")
+    elif option == "2":
+        print("Files sorted by Size.")
+    elif option == "3":
+        print("Files sorted by Date.")
+    else:
+        print("Invalid sorting option.")   
 def main():
     while True:
         display_menu()
@@ -58,7 +75,7 @@ def main():
     show_warnings()
 
         elif choice == "8":
-            print("\nSorting Menu selected.")
+    sort_files()
 
         elif choice == "9":
             print("\nThank you for using Storage Analyzer!")
