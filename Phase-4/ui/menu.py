@@ -22,6 +22,15 @@ def show_dashboard():
     print("Total Space Used : 12.8 GB")
     print("=" * 45)
     
+   def show_warnings():
+    print("\n" + "!" * 45)
+    print("           STORAGE WARNINGS")
+    print("!" * 45)
+    print("Warning: 3 Empty folders detected.")
+    print("Warning: Large storage block (5.2 GB) found.")
+    print("Recommendation: Clean unnecessary files.")
+    print("!" * 45)
+       
 def main():
     while True:
         display_menu()
@@ -45,8 +54,8 @@ def main():
         elif choice == "6":
             print("\nDuplicate Files selected.")
 
-        elif choice == "7":
-            print("\nEmpty Folders selected.")
+     elif choice == "7":
+    show_warnings()
 
         elif choice == "8":
             print("\nSorting Menu selected.")
