@@ -2,9 +2,7 @@
 
 ## Project Overview
 
-Doom Folder is a command-line storage analyzer developed in Python. It helps users analyze their storage by scanning folders recursively and providing useful information about files and folders.
-
-The application detects large files, old files, screenshots, archive files, duplicate files, and empty folders. It provides a simple dashboard-based interface to view storage analysis results.
+Doom Folder is a command-line storage analyzer developed in Python. It scans folders recursively and analyzes stored files. The application detects large files, old files, screenshots, archive files, duplicate files, and empty folders through a simple command-line interface.
 
 ## Problem Statement
 
@@ -16,46 +14,61 @@ Doom Folder solves this problem by automatically scanning directories, analyzing
 
 ## Features
 
-* Recursive folder scanning
+* Recursive directory scanning
 * File information extraction
+* Storage summary dashboard
 * Large file detection
 * Old file detection
-* Screenshot identification
+* Screenshot detection
 * Archive file detection
 * Duplicate file detection
 * Empty folder detection
 * Sorting and filtering options
-* Command-line dashboard interface
+* Interactive CLI menu
+
+## Technologies Used
+
+* Python 3
+* OS Module
+* Pathlib
+* Datetime
+* Object-Oriented Programming
+* File System Handling
 
 ## Project Structure
 
 ```
 Final-Integration/
 │
-├── main.py
+├── app.py
+├── scanner.py
+├── analyzer.py
+├── file_data.py
 ├── README.md
+│
 └── Output/
-    ├── screenshots
-    └── final results
+    ├── screenshot1.png
+    ├── screenshot2.png
+    └── final_results.png
 ```
-
-## Technologies Used
-
-* Python
-* Object-Oriented Programming
-* File System Handling
-* Command Line Interface
 
 ## How to Run
 
 1. Open the project folder.
-2. Run the main file:
+2. Navigate to:
 
 ```
-python main.py
+Phase-5/Final-Integration
 ```
 
-3. Follow the menu options to analyze folders and view results.
+3. Run:
+
+```
+python app.py
+```
+
+4. Enter the folder path you want to scan.
+5. Use the menu options to analyze storage information.
 
 ## Output Screenshots
 
@@ -65,3 +78,11 @@ The Output folder contains screenshots showing the working of the final integrat
 
 Doom Folder provides an efficient way to analyze and organize storage by identifying important file categories and helping users manage disk space effectively.
 
+## Author
+
+Name: Meesam Ali
+University: Mehran University of Engineering and Technology (MUET)
+Program: BE Computer System Engineering
+
+```
+```
