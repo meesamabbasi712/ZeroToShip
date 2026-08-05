@@ -1,16 +1,15 @@
-
 # ZeroToShip
 
-This repository contains my work for the ZeroToShip Summer Activity 2026.
+This repository contains my work for the **ZeroToShip Summer Activity 2026**.
 
 ## Repository Structure
+
 - Phase-1
 - Phase-2
 - Phase-3
 - Phase-4
 - Phase-5
 - Final-Integration
-
 
 ---
 
@@ -35,14 +34,25 @@ Doom Folder is a command-line storage analyzer developed in Python. It scans fol
 ## Technologies Used
 
 - Python 3
-- os
-- pathlib
-- datetime
+- OS Module (`os`)
+- Pathlib
+- Datetime
+
+## Project Structure
+
+```
+Phase-5/
+└── Final-Integration/
+    ├── app.py
+    ├── scanner.py
+    ├── analyzer.py
+    └── file_data.py
+```
 
 ## How to Run
 
 1. Open a terminal.
-2. Go to:
+2. Navigate to:
 
 ```
 Phase-5/Final-Integration
@@ -54,8 +64,8 @@ Phase-5/Final-Integration
 python app.py
 ```
 
-4. Enter the folder path.
-5. Use the menu.
+4. Enter the folder path you want to scan.
+5. Use the menu to analyze storage information.
 
 ## Final Integration Files
 
@@ -64,9 +74,8 @@ python app.py
 - analyzer.py
 - file_data.py
 
-
 ## Author
 
 **Name:** Meesam Ali  
 **University:** Mehran University of Engineering and Technology (MUET)  
-**Project:** Doom Folder - CLI Storage Analyzer
+**Program:** BE Computer System Engineering
