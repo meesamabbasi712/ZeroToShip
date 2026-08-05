@@ -74,6 +74,20 @@ python app.py
 - analyzer.py
 - file_data.py
 
+## Output Screenshots
+
+The project output screenshots demonstrate the working of the Doom Folder CLI Storage Analyzer, including:
+
+- Storage dashboard
+- Large file detection results
+- Duplicate file detection results
+- Empty folder detection results
+
+Screenshots are available in the Final-Integration folder.
+
+## Conclusion
+
+Doom Folder provides an efficient way to analyze and manage storage by automatically scanning directories, identifying important file categories, and helping users understand their storage usage through a simple command-line interface.
 ## Author
 
 **Name:** Meesam Ali  
