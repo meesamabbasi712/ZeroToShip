@@ -63,3 +63,10 @@ python app.py
 - scanner.py
 - analyzer.py
 - file_data.py
+
+
+## Author
+
+**Name:** Meesam Ali  
+**University:** Mehran University of Engineering and Technology (MUET)  
+**Project:** Doom Folder - CLI Storage Analyzer
