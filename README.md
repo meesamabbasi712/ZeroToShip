@@ -74,8 +74,17 @@ ZeroToShip/
 
 ## How to Run
 
-4. Enter the folder path you want to scan.
+## How to Run
 
+1. Open a Command Prompt (CMD) or Terminal.
+2. Navigate to the `Phase-5/Final-Integration` folder.
+3. Run:
+
+```bash
+python app.py
+```
+
+4. Enter the folder path you want to scan.
 5. Use the menu options to analyze storage information.
 
 ## Final Integration Files
