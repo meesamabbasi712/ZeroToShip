@@ -71,9 +71,6 @@ ZeroToShip/
 ├── DUPLICATE.png
 └── EMPTY.png
 
-
-## How to Run
-
 ## How to Run
 
 1. Open a Command Prompt (CMD) or Terminal.
